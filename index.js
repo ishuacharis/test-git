@@ -1,11 +1,4 @@
 const courses = ['biology', 'physics', 'geography', 'law'];
 
-let allCourses = [];
-
-for (let i = 0; i < courses.length; i++) {
-    
-    allCourses.push(courses[i]);
-    
-}
-
+const allCourses = courses.map((course) => course)
 console.log(allCourses);
